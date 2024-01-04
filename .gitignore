@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Express
+build/
+dist/
+
+# React
+/build/
+/.cache/
+/public/
+
+# Environment variables
+.env
