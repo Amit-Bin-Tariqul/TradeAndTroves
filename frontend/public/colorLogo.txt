@@ -1,0 +1,36 @@
+/* CSS HEX */
+--conifer: #8dde54;
+--mountain-meadow: #169f58;
+--fruit-salad: #539167;
+--mantis: #60c85c;
+--viridian: #3f9160;
+--highland: #768e5c;
+--killarney: #426e58;
+--ocean-green: #41a974;
+--jungle-green: #29b65c;
+
+
+/* SCSS HEX */
+$conifer: #8dde54;
+$mountain-meadow: #169f58;
+$fruit-salad: #539167;
+$mantis: #60c85c;
+$viridian: #3f9160;
+$highland: #768e5c;
+$killarney: #426e58;
+$ocean-green: #41a974;
+$jungle-green: #29b65c;
+
+
+/* SCSS RGB */
+--conifer: rgba(141,222,84,1);
+--mountain-meadow: rgba(22,159,88,1);
+--fruit-salad: rgba(83,145,103,1);
+--mantis: rgba(96,200,92,1);
+--viridian: rgba(63,145,96,1);
+--highland: rgba(118,142,92,1);
+--killarney: rgba(66,110,88,1);
+--ocean-green: rgba(65,169,116,1);
+--jungle-green: rgba(41,182,92,1);
+
+
