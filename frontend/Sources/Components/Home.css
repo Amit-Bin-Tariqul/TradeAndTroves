@@ -1,0 +1,262 @@
+/* Home.css */
+
+.home-container {
+  height: 100vh; /* Fill the entire viewport height */
+  overflow-y: auto; /* Enable vertical scrollbar if needed */
+  background: linear-gradient(to right,#b2e8c3, #f3f3f3);
+  position: relative;
+  border-color: #dae4de;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('D:\Web Dev\LoginApp_v2.0\frontend\frontend\public\images\bg.png'); /* Adjust the path as needed */
+  background-size: 100% 100%; /* Rescale the image to fit the container */
+  background-repeat: no-repeat;
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1;
+}
+
+.Hcontent {
+  position:relative;
+  text-align:center;
+  background-size: cover; /* Ensure the background image covers the container */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  height: 70vh; /* Set the desired height for the container */
+  color: black; /* Text color on top of the image with reduced opacity */
+  padding: 49px;
+
+
+  /* You can add more styling properties as needed */
+}
+
+h1 {
+  font-size: 70px;
+
+  z-index: 1;
+  animation: fadeIn 1.5s ease-in-out 0s; /* Add the fade-in animation with 0s delay */
+}
+
+h2 {
+  font-size: 46px;
+  animation: fadeIn 1.5s ease-in-out 1s; /* Add the fade-in animation with 1s delay */
+}
+
+p {
+  font-size: 56px;
+  animation: fadeIn 1.5s ease-in-out 2s; /* Add the fade-in animation with 2s delay */
+  color: black;
+  font-weight:900;
+  font-weight: 500;
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.product {
+  border: 1px solid #1a693b;
+  border-radius: 25px;
+  padding: 10px;
+  background: linear-gradient(to right, #f3f3f3, #eeffee);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+.product-link {
+  text-decoration: none; /* This removes the underline */
+  color: #000; /* Optionally change the link color */
+}
+
+.product-link:hover {
+  /* Optionally, you can add styles when hovering over the link */
+  /* For example, you can change the text color */
+  color:#1a693b;
+}
+
+
+.product-image img {
+  max-width: 30%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.product p.price {
+  margin-left: 2px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product:hover {
+  transform: translateY(-15px);
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: #b3cfb3;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Updated margin for spacing */
+}
+
+.product-grid .col-md-3 {
+  flex-basis: calc(25% - 20px); /* Four products per row (minus gap) */
+}
+
+.product-grid .product {
+  cursor: pointer;
+  text-align: center;
+}
+
+.product-grid .product:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background: linear-gradient(to right, #f3f3f3,   #1a693b);
+  padding: 20px 0;
+  color: #011107;
+}
+
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color:  #1a693b;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer li {
+  margin-bottom: 0px;
+  flex: 1;
+  width: 25%; /* Adjust this value to control the number of columns */
+}
+
+.footer a {
+  text-decoration:none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.search-input2 {
+  width: 24.6%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #111010;
+  border-radius: 5px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #f0f7f3;
+  
+}
+.search-input2 :hover{
+  scale: 1.02%;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.product-select {
+  width: 20%;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+ 
+}
+
+/* Additional styling for the dropdown arrow */
+.product-select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.product-select:hover::after {
+  background-color: #e5e5e5;
+}
+/* ProductWelcome.css */
+.product {
+
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product .product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product .product-details {
+  margin-top: 10px;
+}
+
+.product .product-details h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.product .product-details .price {
+  font-size: 1rem;
+  color: #777;
+}
+
+.product .product-details .price strong {
+  color: #333;
+}
+
+.no-matching-products {
+  text-align: center;
+  color: #777;
+}

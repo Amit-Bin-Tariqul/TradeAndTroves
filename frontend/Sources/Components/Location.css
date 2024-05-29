@@ -1,0 +1,63 @@
+/* Location.css */
+/* Location.css */
+
+.locationContainer {
+  text-align: center;
+  padding: 20px;
+  background: url('D:\Web Dev\LoginApp_v2.0\frontend\frontend\public\map.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Rest of your CSS styles remain the same */
+
+
+.form-control {
+  width: 150%;
+  max-width: 600px; /* Increase max-width for a larger input field */
+  padding: 15px; /* Increase padding for a larger input field */
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 15px; /* Increase border-radius for a larger input field */
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+.btn-primary {
+  background-color: #4285F4;
+  border: none;
+  width: 50%;
+  padding: 10px;
+  padding-top: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  color: #4285F4;
+  background-color: white;
+}
+
+p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .form-control {
+    max-width: 100%;
+  }
+}

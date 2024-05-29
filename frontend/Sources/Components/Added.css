@@ -1,0 +1,17 @@
+.added-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .added-text {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4caf50; /* Green background color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  

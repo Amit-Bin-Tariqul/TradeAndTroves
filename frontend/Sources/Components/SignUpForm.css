@@ -1,0 +1,96 @@
+.signup-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ea;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a693b;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    border-color: #1a693b;
+    box-shadow: 0 0 5px rgba(26, 105, 59, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #1a693b;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #196232;
+  }
+  
+  .form-control-feedback {
+    position: relative;
+  }
+  
+  .form-control-feedback .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .form-control-feedback .icon:hover {
+    color: #1a693b;
+  }
+  
+  .password-icon {
+    font-size: 18px;
+  }
+  
+  .success-icon {
+    color: #1a693b;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .btn-login {
+    background-color: #055c29;
+    border: none;
+    width: 100%;
+    padding: 15px; /* Increase the padding for a larger button */
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Increase the font size for a larger button */
+  }
+  
+  
+  .btn-login:hover {
+   background-color: white;
+   color: #032f15;
+  }

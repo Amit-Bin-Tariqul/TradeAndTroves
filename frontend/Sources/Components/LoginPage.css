@@ -1,0 +1,91 @@
+.login-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f8ea;
+  border-radius: 10px;
+  box-shadow: 0 0 10px  #8ec5fc;
+}
+.Loginheader {
+  position: relative;
+  color: #07213c; 
+  font-size:xx-large;
+  font-weight: 600;
+}
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:  #8ec5fc;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-controlL {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-controlL:focus {
+  border-color: #07213c;
+  box-shadow: 0 0 5px rgba(26, 71, 105, 0.5);
+}
+.form-control[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.btn-logine {
+  background-color: #07213c;
+  border: none;
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-logine:hover {
+  background-color:white;
+  color:#07213c;
+}
+.toggle-form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.toggle-form button {
+  background: none;
+  border: none;
+  color:#07213c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forgot-passworde {
+  background-color: white;
+  color:#07213c ;
+  border: none;
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.forgot-passworde:hover{
+  background-color:#07213c;
+  color: white;
+}
+.forgot-passworde a {
+  color: #07213c;
+  text-decoration: none;
+}

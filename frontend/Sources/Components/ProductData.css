@@ -1,0 +1,148 @@
+/* ProductData.css */
+
+.product-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #043b1b;
+  font-size: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+.h2{
+  font-size: large;
+  font-weight:900;
+}
+
+.form-control[type="text"],
+.form-control[type="number"],
+.form-control[type="email"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  width: 100%;
+ border-radius: 15px;
+ height: 34px;
+}
+.form-control[type="date" ] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  width: 100%;
+ border-radius: 15px;
+ height: 34px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+/* Custom file input design */
+.file-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: auto;
+  height: min-content;
+}
+
+.file-upload-label {
+  display: inline-block;
+  background-color:white;
+  color: #1a693b;;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.file-upload-icon {
+  font-size: 36px;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Highlight on file hover */
+.file-upload-label:hover {
+  background-color: #196232;
+  color: white;
+}
+
+/* Custom styling for selected files list */
+.selected-files-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.selected-file-item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.submit-btn {
+  background-color: #1a693b;
+  border: none;
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #04421a;
+  color: white;
+}

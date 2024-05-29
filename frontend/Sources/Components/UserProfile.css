@@ -1,0 +1,190 @@
+/* UserProfile.css */
+
+/* Container for the entire user profile */
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(to left, #7fb0be, rgb(244, 233, 243));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Remove the default file input box */
+/* UserProfile.css */
+
+/* Style the custom file input button */
+.custom-file-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  color: #012f11;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.custom-file-upload input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); /* For IE 8 and earlier */
+}
+
+.custom-file-upload label {
+  background-color: #196232;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-file-upload label:hover {
+  background-color:white ;
+  color: rgb(5, 56, 51, 94);
+}
+
+.custom-file-upload label::before {
+  content: 'Choose a Profile Image';
+  display: block;
+  text-align: center;
+}
+
+
+/* Profile picture styling */
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-pic img:hover {
+  transform: scale(1.1);
+}
+
+/* User details styling */
+.user-details {
+  text-align: center;
+}
+
+.user-details p {
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+/* Additional components (e.g., "Set Location" button) */
+.additional-components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set-location-button {
+  background-color: white;
+  color: #04243b;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.set-location-button:hover {
+  background-color:  #04243b;
+  color:white;
+}
+
+/* Edit Profile button (top right corner) */
+/* UserProfile.css */
+
+/* Right column for additional components */
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Styling for User Type and other details */
+.right-column p {
+  margin: 10px 0;
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+/* Styling for additional buttons */
+.profile-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Edit Profile button */
+.edit-profile-button {
+  background-color: #f8fcfa;
+  color:  #04243b;
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.edit-profile-button:hover {
+  background-color:  #04243b;
+  color: white;
+}
+
+/* Logout button */
+.logout-button {
+  background-color: #f8fcfa;
+  color: #04243b;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #04243b;
+  color: white;
+}

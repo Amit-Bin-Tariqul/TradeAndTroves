@@ -1,0 +1,25 @@
+/* UserDetailsTable.css */
+
+.container {
+  text-align: center;
+}
+
+.user-details-table-container {
+  margin-top: 20px;
+}
+
+.user-details-table {
+  width: 80%; /* Adjust the width as needed */
+  border-collapse: collapse;
+}
+
+.user-details-table th,
+.user-details-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-details-table th {
+  background-color: #f2f2f2;
+}

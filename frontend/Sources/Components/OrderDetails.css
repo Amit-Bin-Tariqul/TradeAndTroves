@@ -1,0 +1,65 @@
+.order-container {
+    margin-bottom: 20px;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .order-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+  .order-details-container {
+    text-align: center;
+  }
+  
+  .transaction-id {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+
+  /* ///////Kiran////// */
+  .middle_and_bold{
+    font-weight: bold;
+   padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .Transaction_id{
+    font-weight: bold;
+    padding-bottom: 20px;
+     text-align: center;
+     color: rgb(14, 90, 90);
+  }
+
+  .thtdKiran{
+    width: 50%;
+    padding: 5%;
+
+  }
+
+  .confirm-delivery-button {
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+  
+  .confirm-delivery-button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc; /* Change the background color as needed */
+    color: #666; /* Change the text color as needed */
+  }

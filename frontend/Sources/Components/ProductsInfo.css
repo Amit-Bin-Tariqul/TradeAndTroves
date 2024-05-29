@@ -1,0 +1,86 @@
+.product-details {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    max-height: 40vh;
+  }
+  
+  .small-images img {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+  }
+  
+  .product-info {
+    flex: 2;
+  }
+  
+  .product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .product-quantity {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .buy-button,
+  .add-to-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .buy-button:hover,
+  .add-to-cart-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .seller-email {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .seller-email:hover {
+    text-decoration: underline;
+  }
+  /* Add this to your CSS stylesheet */
+.product-ratings {
+    color: #FFD700; /* Gold color for stars */
+    font-size: 1.5rem; /* Adjust the size as needed */
+  }
+  
+  .product-ratings i {
+    margin-right: 0.2rem; /* Adjust the spacing between stars */
+  }
+  

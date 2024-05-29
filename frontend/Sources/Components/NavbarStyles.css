@@ -1,0 +1,205 @@
+/* NavbarStyles.css */
+
+/* Styles for the Navbar container */
+.navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(120deg, #8ec5fc 0%, #e0c3fc 100%);
+  border-color: #e0c3fc; /* Updated border color */
+  color: white;
+  position: relative;
+  gap: 10px;
+  height: 15vh;
+}
+
+.title {
+  font-style: italic;
+  position: inherit;
+  color: #570d9c; /* Updated text color */
+}
+
+/* Styles for the hamburger button */
+.navbar-toggler {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 7px;
+  background-color: #164675; /* Updated bar color */
+  margin: 3px 3px;
+  margin-right: 0px;
+  border-radius: 5px;
+}
+
+/* Styles for navigation links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-bottom: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0%;
+  gap: 40px;
+  color:white;
+}
+
+.nav-item {
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #07213c; /* Updated link color */
+  font-weight: bold;
+}
+
+/* Profile button styles */
+.profile-button {
+  background-color: #e0c3fc; /* Updated background color */
+  color: white;
+  margin-top: 25px;
+  margin-right: 30px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #8ec5fc; /* Updated button text color */
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.profile-button:hover {
+  background-color: #8ec5fc; /* Updated button background color */
+  color: white;
+}
+
+/* Style for the search form */
+.search-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 30px;
+  margin-left: auto;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: white;
+  color: #8ec5fc; /* Updated button text color */
+  border: none;
+  width: 40px;
+  height: 42px;
+  padding: 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #8ec5fc; /* Updated button background color */
+  color: white;
+}
+
+/* Media query for screens greater than or equal to 800px */
+@media (min-width: 800px) {
+  .logo img {
+    width: 90px;
+  }
+}
+
+/* Media query for screens less than 800px */
+@media (max-width: 800px) {
+  .navbar-toggler {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    align-items: normal;
+    flex-direction: column;
+    position: absolute;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); /* Updated background color */
+    width: 100%;
+    height: 25vh;
+    top: 80px;
+    right: 0px;
+    row-gap: 5px;
+    left: 0px;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    transform: translateY(0);
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-right: 10px;
+  }
+
+  .logo img {
+    width: 90px;
+    height: auto;
+  }
+
+  /* Profile button styles for smaller screens */
+  .profile-button {
+    background-color: #e0c3fc;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #0e3e6e;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+
+  .profile-button:hover {
+    background-color: #8ec5fc;
+    color: white;
+  }
+}
+
+.login-buttone {
+  background-color: white;
+  color: #042b52;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-buttone:hover {
+  background-color: #134474;
+  color: white;
+}

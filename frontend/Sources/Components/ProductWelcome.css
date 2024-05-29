@@ -1,0 +1,101 @@
+.product-welcome {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.product-image {
+  max-width: 300px; /* Reduce the width of the product image */
+  margin-bottom: 20px;
+}
+
+.product-images img {
+  max-width: 100%;
+  max-height: 300px;
+
+}
+.small-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.product-welcome p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  left: 40px;
+}
+p{
+  font-size: 22px;
+}
+.product-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Center buttons vertically */
+  margin-top: 20px;
+}
+
+.add-to-cart-button,
+.buy-button {
+  padding: 12px 24px; /* Increase button size */
+  background-color: white;
+  color: #0d5e21;
+  border: 2px solid #0d5e21; /* Add a border for better visibility */
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.add-to-cart-button:hover,
+.buy-button:hover {
+  background-color: #0d5e21;
+  color: white;
+}
+
+.small-images {
+  display: flex;
+}
+
+.small-images img {
+  max-width: 100px; /* Set the size for the small images */
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+
+/* CartInfo.css or your CSS file */
+
+/* Style for the increment button (larger and green) */
+.increment-button {
+  font-size: 1.5rem; /* Adjust the font size to make it larger */
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the decrement button (red) */
+.decrement-button {
+  font-size: 1rem; /* Use the same font size as other buttons */
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  size: 100px;
+}
+
+.p{
+
+  size: 100px;
+}
+.product-ratings{
+  color: rgb(159, 194, 19);
+}
